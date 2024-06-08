@@ -9,7 +9,6 @@ import ScrollToTop from "react-scroll-to-top";
 import { Footer } from "./components/Footer/Footer";
 import { useTheme } from "./context/ThemeContext";
 import MobileNav from "./components/MobileNav/MobileNav";
-
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 function App() {

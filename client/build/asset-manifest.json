@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0c71d413.css",
+    "main.js": "/static/js/main.b0d83427.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/woman.png": "/static/media/woman.f0f62379283631b25208.png",
+    "static/media/SoniaCV.pdf": "/static/media/SoniaCV.214c0367c63a85e51963.pdf",
+    "static/media/frontend2.png": "/static/media/frontend2.0ca689d3a548616b45c5.png",
+    "static/media/frontend.avif": "/static/media/frontend.44c9226906a595383120.avif",
+    "static/media/profile.avif": "/static/media/profile.348a0300952d0fe31e98.avif",
+    "index.html": "/index.html",
+    "main.0c71d413.css.map": "/static/css/main.0c71d413.css.map",
+    "main.b0d83427.js.map": "/static/js/main.b0d83427.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c71d413.css",
+    "static/js/main.b0d83427.js"
+  ]
+}
