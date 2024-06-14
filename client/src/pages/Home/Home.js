@@ -40,16 +40,16 @@ const Home = () => {
             </h1>
           </Fade>
           <Fade bottom>
-            <div className="home-buttons">
+            <div className="home-buttons d-flex flex-lg-row flex-md-row flex-column align-items-start justify-conten-start">
               <a
-                className="btn btn-hire"
+                className="btn btn-hire "
                 href="https://api.whatsapp.com/send?phone=3046104252"
                 rel="noreferrer"
                 target="_blank"
               >
                 Hire Me
               </a>
-              <a className="btn btn-cv" href={Resume} download="resume.pdf">
+              <a className="btn btn-cv w-auto mt-2 mt-lg-0 mt-md-0" href={Resume} download="resume.pdf">
                 My Resume
               </a>
             </div>

@@ -1,7 +1,7 @@
 .about {
   margin: 30px 0px;
   padding: 20px;
-  margin-left: 200px;
+  padding-left: 120px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
@@ -51,5 +51,13 @@
   }
   .about-content h1 {
     margin-top: 10px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .about{
+    padding: 0;
+    margin-top: 25px;
+    padding-left: 180px;
   }
 }

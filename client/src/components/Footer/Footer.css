@@ -1,5 +1,14 @@
 .footer-section {
-    margin-left: 200px;
+    margin-left: 150px;
     margin-bottom: 10px;
     padding-top: 50px;
+  }
+
+
+
+  @media (max-width: 600px) {
+    .footer-section  {
+      margin-left: 2px !important;
+    }
+    
   }

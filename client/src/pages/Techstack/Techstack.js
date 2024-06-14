@@ -8,7 +8,7 @@ const Techstack = () => {
     <>
       <div className="container techstack" id="techstack">
         <RubberBand>
-          <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
+          <h2 className=" mt-3 mb-1 text-center text-uppercase">
             Technologies Stack
           </h2>
           <hr />
@@ -17,10 +17,10 @@ const Techstack = () => {
             and back-end tools, and APIs
           </p>
         </RubberBand>
-        <div className="row">
+        <div className="d-flex flex-wrap">
           {TechstackList.map((tech) => (
             <Fade left>
-              <div key={tech._id} className="col-md-3">
+              <div key={tech._id} className="col-lg-3 col-md-5 col-12">
                 <div className="card m-2">
                   <div className="card-content">
                     <div className="card-body">

@@ -1,7 +1,7 @@
 .home-container {
   height: 300px;
   color: white;
-  padding-left: 170px;
+  padding-left: 130px;
 }
 
 .home-content h2 {
@@ -72,5 +72,17 @@
   }
   .home-container h1 {
     font-size: 24px;
+  }
+  .home-buttons .btn-cv {
+   
+    margin-left: 0 !important
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .home-container {
+    padding: 0;
+    margin: 0;
+    padding-left: 180px;
   }
 }

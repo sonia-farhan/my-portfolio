@@ -3,7 +3,7 @@ import sendGridTransport from 'nodemailer-sendgrid-transport'
 import dotenv from 'dotenv'
 
 dotenv.config()
-// console.log("api key", process.env.API_SENDGRID )
+console.log("api key", process.env.API_SENDGRID )
 
 //transport
 const transporter = nodemailer.createTransport(

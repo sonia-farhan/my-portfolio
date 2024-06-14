@@ -1,6 +1,6 @@
 .project {
   margin: 50px 0px;
-  margin-left: 200px;
+  padding-left: 130px;
 }
 
 .project hr {
@@ -96,5 +96,12 @@
   }
   .project .card {
     margin-top: 30px;
+  }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+  .project{
+    padding: 0;
+    margin-top: 25px;
+    padding-left: 180px;
   }
 }

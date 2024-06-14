@@ -1,5 +1,5 @@
 .contact {
-  margin-left: 200px;
+  padding-left: 130px;
   margin-bottom: 60px;
   padding-top: 50px;
 }
@@ -94,5 +94,13 @@ button:focus {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .contact{
+    padding: 0;
+    margin-top: 25px;
+    padding-left: 180px;
   }
 }

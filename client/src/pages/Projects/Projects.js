@@ -4,8 +4,8 @@ import Spin from "react-reveal/Spin";
 const Projects = () => {
   return (
     <>
-      <div className="continer project" id="projects">
-        <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
+      <div className="project" id="projects">
+        <h2 className="mt-3 mb-1 text-center text-uppercase">
           TOP RECENT PROJECTS
         </h2>
         <hr />
@@ -20,7 +20,7 @@ const Projects = () => {
         {/* card design */}
         <div className="row" id="ads">
           <Spin>
-            <div className="col-md-4">
+            <div className="col-lg-4 col-md-6 col-12 mb-4">
               <div className="card rounded">
                 <div className="card-image">
                   <span className="card-notify-badge">Full stack</span>
@@ -51,7 +51,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-lg-4 col-md-6 col-12 mb-4">
               <div className="card rounded">
                 <div className="card-image">
                   <span className="card-notify-badge">Frontend</span>
@@ -64,6 +64,7 @@ const Projects = () => {
                   <span className="card-detail-badge">React.js</span>
                   <span className="card-detail-badge">Bootstrap</span>
                   <span className="card-detail-badge">MUI</span>
+                  <span className="card-detail-badge">Redux</span>
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
@@ -71,7 +72,7 @@ const Projects = () => {
                   </div>
                   <a
                     className="ad-btn"
-                    href="https://github.com/techinfo-youtube/ecommerce-app-2023"
+                    href="https://github.com/sonia-farhan/golf-website.git"
                     target="-blank"
                   >
                     View
@@ -79,7 +80,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-lg-4 col-md-6 col-12 mb-4">
               <div className="card rounded">
                 <div className="card-image">
                   <span className="card-notify-badge">Frontend</span>
@@ -108,7 +109,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 mt-4">
+            {/* <div className="col-md-4 mt-4">
               <div className="card rounded">
                 <div className="card-image">
                   <span className="card-notify-badge">Group Work</span>
@@ -136,7 +137,7 @@ const Projects = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </Spin>
         </div>
       </div>
